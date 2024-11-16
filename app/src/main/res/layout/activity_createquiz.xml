@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/createaquiz"
+    android:orientation="vertical"
+    android:id="@+id/container">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Create a New Quiz"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_marginVertical="10dp"/>
+
+
+        <EditText
+            android:id="@+id/enterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_marginVertical="100dp"
+            android:background="@color/purple_100"
+            android:hint="Enter Title here..." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/backQuiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="50dp"
+                android:backgroundTint="@color/black"
+                android:text="Back"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/saveQuizTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginVertical="50dp"
+                android:layout_marginHorizontal="19dp"
+                android:backgroundTint="@color/green"
+                android:text="Next"
+                android:textSize="30sp"/>
+        </LinearLayout>
+</RelativeLayout>

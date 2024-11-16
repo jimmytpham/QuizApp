@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200">
+
+    <TextView
+        android:id="@+id/settingsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/settings"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
+
+    <Switch
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingsTitle"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/music"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:checked="false"/>
+
+    <Switch
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/music"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/timer"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:checked="false"/>
+
+    <Button
+        android:id="@+id/saveSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/save"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        android:backgroundTint="@color/black"
+        android:textStyle="bold"/>s
+
+</RelativeLayout>

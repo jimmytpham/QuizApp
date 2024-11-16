@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:background="@drawable/dialogue_background"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Disclaimer"
+            android:textColor="@color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content presented in this app is collected from the internet. We do not have any right of any kind on this material and we invalidate all types of realities about this material. \n If you have any personal ownership rights on any of the content shown in the application, then you can inform us by sending an E-mail given below with proof of ownership/authority. \n We will check the validity of your claim doing so will remove content immediately."
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="12dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you have any problems regarding this application then you can contact via Email "
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="12dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="8dp"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email ID"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jimmytpham94@gmail.com"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
